@@ -15,22 +15,23 @@ Enhancing Anonymity: It improves privacy by making it more difficult to track an
 # Methods to Implement IP Rotation
 To comprehensively understand IP rotation, it can be broken down into four primary methods:
 
-Proxy Servers
+1. Proxy Servers
 
 [Proxy servers](https://www.okeyproxy.com/en) act as intermediaries between the user and the internet. By using a pool of proxy IPs, users can access websites with different IP addresses.
 
 Datacenter Proxies: Known for their speed and reliability, but easier to detect.
 Residential Proxies: These use IPs assigned by ISPs, making them harder to detect but generally slower.
 Mobile Proxies: Rotate IPs based on mobile networks, ideal for emulating mobile users.
-VPNs with IP Rotation
+
+2. VPNs with IP Rotation
 
 Some VPNs come with built-in IP rotation, automatically switching IP addresses during a session or after a specific number of requests. This method combines the security of VPNs with the anonymity of IP rotation.
 
-Tor Network
+3. Tor Network
 
 The Tor network routes traffic through multiple volunteer-operated servers, rotating IP addresses at each step. While Tor is known for its high level of anonymity, it may suffer from slower speeds.
 
-Custom Scripts
+4. Custom Scripts
 
 For those with technical skills, custom scripts can be created to automatically rotate IP addresses using various APIs or services. This method offers flexibility but requires ongoing maintenance and technical expertise.
 
